@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/icons/logo.png'
+import logo from '../../assets/icons/logo.png';
 import "./home.css";
 import "./custom.js"
 
@@ -47,11 +47,11 @@ const Home = () => {
   return (
     <div id="home">
       <div className="wrapper">
-        
+     
         <div className="navbar">
           <div className="logo">
             <img src={logo} alt="" />
-            <a href="#home"><h2>devsbuild.</h2></a>
+            <a href="https://devbuild-agency.vercel.app/"><h2>devsbuild.</h2></a>
           </div>
           <div className="nav-links">
             <ul>

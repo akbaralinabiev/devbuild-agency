@@ -1,5 +1,5 @@
 (function() {
-    const buttons = document.querySelectorAll("#cta");
+    const buttons = document.querySelectorAll("#cta, nav-button");
   
     buttons.forEach(button => {
       ["mouseenter", "mouseout"].forEach(evt => {
@@ -17,6 +17,3 @@
     });
   })();
 
-
-  
- 
