@@ -92,7 +92,8 @@ const Home = () => {
         <div className="title">
             <h3>We build digital products, brands, and experience.</h3>
             <p>Building excitement around your vision and accelerating your growth</p>
-          </div>    
+          </div>   
+
       </div>
     </div>
   );

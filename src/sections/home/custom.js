@@ -1,5 +1,5 @@
 (function() {
-    const buttons = document.querySelectorAll("#cta, nav-button");
+    const buttons = document.querySelectorAll("#cta");
   
     buttons.forEach(button => {
       ["mouseenter", "mouseout"].forEach(evt => {
