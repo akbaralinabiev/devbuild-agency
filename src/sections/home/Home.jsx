@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/icons/logo.png';
+import layer from '../../assets/images/bottom-layer.png'
 import "./home.css";
 import "./custom.js"
 
@@ -47,6 +48,7 @@ const Home = () => {
   return (
     <div id="home">
       <div className="wrapper">
+        <img className="bottom-layer" src={layer} alt="" />
      
         <div className="navbar">
           <div className="logo">

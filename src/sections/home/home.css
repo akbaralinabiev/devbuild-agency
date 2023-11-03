@@ -10,6 +10,7 @@
   background-size: cover;
   padding: 0 150px 0;
   position: relative;
+  overflow: hidden;
 }
 
 
@@ -216,7 +217,7 @@
   font-size: 25px;
   width: 60%;
   text-align: center;
-  color: #c5c5c5;
+  color: #ebebeb;
 }
 
 
@@ -230,6 +231,14 @@
 .center-div img{
   width: 680px;
   margin-top: 30px;
+}
+
+.bottom-layer{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 120%;
 }
 
 /**************************Responsive starts here******************************/
