@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/icons/logo.png';
 import layer from '../../assets/images/bottom-layer.png'
+import layer1 from '../../assets/images/durves.png'
 import "./home.css";
 import "./custom.js"
 
@@ -49,6 +50,8 @@ const Home = () => {
     <div id="home">
       <div className="wrapper">
         <img className="bottom-layer" src={layer} alt="" />
+        {/* <img className="duver" src="{layer1}" alt="" /> */}
+        <div className="duver"></div>
      
         <div className="navbar">
           <div className="logo">
